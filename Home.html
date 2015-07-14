@@ -11,13 +11,34 @@
   <script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
 
   <link rel="stylesheet" type="text/css" href="css/index.css" />
-
+  <style>
+  .header-container
+  {
+      width:100%;
+      height:40px;
+      display:block;
+      float:left;
+      padding:5px;
+      background-color:#49afcd;
+  }
+  .header-container a img
+  {
+      width:30px;
+      display:block;
+      float:left;
+  }
+  .header-container h1
+  {
+      font-size:25px;
+  }
+  </style>
 </head>
 <body>
 
 
-    <div data-role="header">
+    <div class="header-container" data-role="header">
       <a href="#"><img src="img/Menu.png" style="width:40px" /></a>
+
       <h1>Dashboard</h1>  
     </div>
 
