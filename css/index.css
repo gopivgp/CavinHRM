@@ -112,3 +112,11 @@ h1 {
     animation:fade 3000ms infinite;
     -webkit-animation:fade 3000ms infinite;
 }
+
+input#btnGoogle    {
+background:url(../img/sign-in-with-google.png);
+background-repeat: no-repeat;
+width:auto;
+height:auto;
+border: 0;
+}

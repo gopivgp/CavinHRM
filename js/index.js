@@ -26,8 +26,8 @@ function AuthendicateUser() {
     var ClientID1 = $("#ClientID").val();
     var Uname1 = $("#Uname").val();
     var Pwd1 = $.sha1($("#Pwd").val());
-    alert($("#Pwd").val());
-    alert($.sha1($("#Pwd").val()));
+    //alert($("#Pwd").val());
+    //alert($.sha1($("#Pwd").val()));
     //var Pwd1 = $("#Pwd").val();
     //alert('Encrpted value'+Pwd1);
     //var ParamArr = new Array();
@@ -48,7 +48,7 @@ function AuthendicateUser() {
                 window.open("Home.html");
             }
             else {
-                alert('Login Failed');
+                alert('Login Failed.' + JSON.parse(data));
             }
             //jQuery code will go here...
         },
