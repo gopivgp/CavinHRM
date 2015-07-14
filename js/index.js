@@ -26,6 +26,8 @@ function AuthendicateUser() {
     var ClientID1 = $("#ClientID").val();
     var Uname1 = $("#Uname").val();
     var Pwd1 = $.sha1($("#Pwd").val());
+    alert($("#Pwd").val());
+    alert($.sha1($("#Pwd").val()));
     //var Pwd1 = $("#Pwd").val();
     //alert('Encrpted value'+Pwd1);
     //var ParamArr = new Array();
